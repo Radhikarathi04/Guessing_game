@@ -10,7 +10,7 @@ public class Main {
 
             // generate a secret number
             Random randomNumber = new Random();
-            int secretNumber = randomNumber.nextInt(1,10);
+            int secretNumber = randomNumber.nextInt(10) + 1;
 
             // use a loop
             // once the secret number is generated, the loop should continue taking the user input till the user guesses the correct secret number
